@@ -11,7 +11,5 @@ public class Curso {
         return this;
     }
 
-    public String getNomeCoordenador(){
-        return this.coordenador.getNome();
-}
+
 }

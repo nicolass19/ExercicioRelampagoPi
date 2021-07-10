@@ -1,7 +1,7 @@
 public class Professor extends Pessoa{
 
     private String escolaridade;
-    private String cidadeNtural;
+    private String cidadeNatural;
     private String tipoEnsino;
 
     public String getEscolaridade() {
@@ -13,12 +13,12 @@ public class Professor extends Pessoa{
         return this;
     }
 
-    public String getCidadeNtural() {
-        return cidadeNtural;
+    public String getCidadeNatural() {
+        return cidadeNatural;
     }
 
-    public Professor setCidadeNtural(String cidadeNtural) {
-        this.cidadeNtural = cidadeNtural;
+    public Professor setCidadeNatural(String cidadeNatural) {
+        this.cidadeNatural = cidadeNatural;
         return this;
     }
 
