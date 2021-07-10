@@ -1,13 +1,3 @@
-public class Pessoa {
+public class Pessoa extends Professor  {
 
-    private String nome;
-
-    public String getNome() {
-        return nome;
-    }
-
-    public Pessoa setNome(String nome) {
-        this.nome = nome;
-        return this;
-    }
 }
